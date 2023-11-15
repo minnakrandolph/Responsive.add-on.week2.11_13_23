@@ -40,19 +40,21 @@ header h3 {
     color: var(--Light, #f9f1f1);
     text-align: center;
 }
+
 header a {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.5;
     text-align: center;
-    margin-top: 32px;
-    display: inline-block;
+    display: block;
     color: #272044;
     padding: 16px 32px;
     text-decoration: none;
     letter-spacing: 3px;
     text-transform: uppercase;
     background: white;
+    margin: 0 auto;
+    max-width: 120px;
 }
 
 @media (max-width: 900px) {
