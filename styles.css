@@ -28,8 +28,11 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
 }
 .embed {
-    width: 100%;
+    max-width: 100%;
     aspect-ratio: 1 /1;
+}
+.instagram-embeds {
+    margin: 30px 0;
 }
 
 section {
@@ -131,10 +134,10 @@ main h5 {
     background-color: white;
     margin-top: 30px 0;
 }
-.card-header .grid {
+.card-header.grid {
     grid-gap: 0;
-
 }
+
 
 .card-body {
     padding: 30px;
@@ -158,9 +161,7 @@ main h5 {
     font-weight: 700;
     line-height: 1.5;
 }
-.card h5 {
-    
-}
+
 main p {
     color: #272044;
     font-size: 16px;
@@ -170,7 +171,6 @@ main p {
     opacity: 0.7;
 
 }
-
 
 footer {
     color: var(--Light, #FFF);
@@ -229,7 +229,10 @@ footer a {
         margin: 0 auto;
         padding: 100px 0;
     }
-    card-header .img {
+    .card-header img {
         display: none;
+    }
+    .embed {
+        aspect-ratio: 16 / 9;
     }
 }
