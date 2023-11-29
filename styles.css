@@ -25,6 +25,7 @@ body {
     grid-template-columns: 1fr 2fr 2fr;
 }
 .grid-3-columns {
+    grid-gap: 64px;
     grid-template-columns: 1fr 1fr 1fr;
 }
 .embed {
